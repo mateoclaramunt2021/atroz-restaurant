@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Fondo del restaurante -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fee2e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecaca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="platoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fca5a5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="1200" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Local del restaurante (izquierda) -->
+  <g id="local">
+    <!-- Edificio -->
+    <rect x="50" y="150" width="400" height="350" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+    
+    <!-- Techo -->
+    <polygon points="50,150 250,80 450,150" fill="#991b1b"/>
+    
+    <!-- Puerta -->
+    <rect x="175" y="380" width="150" height="120" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+    <circle cx="310" cy="440" r="8" fill="#ffd700"/>
+    
+    <!-- Ventanas -->
+    <rect x="80" y="200" width="80" height="80" fill="#87ceeb" stroke="#333" stroke-width="2"/>
+    <line x1="120" y1="200" x2="120" y2="280"/>
+    <line x1="80" y1="240" x2="160" y2="240"/>
+    
+    <rect x="200" y="200" width="80" height="80" fill="#87ceeb" stroke="#333" stroke-width="2"/>
+    <line x1="240" y1="200" x2="240" y2="280"/>
+    <line x1="200" y1="240" x2="280" y2="240"/>
+    
+    <rect x="320" y="200" width="80" height="80" fill="#87ceeb" stroke="#333" stroke-width="2"/>
+    <line x1="360" y1="200" x2="360" y2="280"/>
+    <line x1="320" y1="240" x2="400" y2="240"/>
+    
+    <!-- Letrero ATROZ -->
+    <rect x="90" y="100" width="260" height="50" fill="#dc2626" stroke="#991b1b" stroke-width="2" rx="5"/>
+    <text x="220" y="135" font-family="Playfair Display, serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">ATROZ</text>
+    
+    <!-- Plantas decorativas -->
+    <circle cx="70" cy="500" r="30" fill="#22c55e"/>
+    <circle cx="65" cy="480" r="25" fill="#16a34a"/>
+    <circle cx="410" cy="500" r="30" fill="#22c55e"/>
+    <circle cx="415" cy="480" r="25" fill="#16a34a"/>
+  </g>
+  
+  <!-- Platos (derecha) -->
+  <g id="platos">
+    <!-- Plato 1: Hamburguesa -->
+    <g id="hamburguesa" transform="translate(550, 120)">
+      <ellipse cx="100" cy="150" rx="100" ry="30" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Pan -->
+      <circle cx="100" cy="100" r="60" fill="#d4a574" stroke="#333" stroke-width="2"/>
+      <!-- Lechuga -->
+      <path d="M 60 110 Q 50 120 60 130 Q 70 120 60 110" fill="#22c55e"/>
+      <path d="M 140 110 Q 150 120 140 130 Q 130 120 140 110" fill="#22c55e"/>
+      <!-- Queso -->
+      <rect x="60" y="115" width="80" height="20" fill="#ffd700" opacity="0.8"/>
+      <!-- Carne -->
+      <ellipse cx="100" cy="135" rx="85" ry="18" fill="#8b4513"/>
+      <!-- Pan superior -->
+      <circle cx="100" cy="70" r="55" fill="#cd853f" stroke="#333" stroke-width="2"/>
+    </g>
+    
+    <!-- Plato 2: Pasta -->
+    <g id="pasta" transform="translate(750, 120)">
+      <ellipse cx="100" cy="150" rx="90" ry="25" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Pasta -->
+      <path d="M 50 140 Q 60 120 70 135 Q 80 110 90 130 Q 100 105 110 130 Q 120 110 130 135 Q 140 120 150 140" 
+            fill="#ffb347" stroke="#333" stroke-width="1.5"/>
+      <!-- Salsa tomate -->
+      <circle cx="80" cy="130" r="15" fill="#dc2626" opacity="0.7"/>
+      <circle cx="120" cy="125" r="15" fill="#dc2626" opacity="0.7"/>
+      <!-- Queso -->
+      <text x="100" y="145" font-size="20" text-anchor="middle" fill="#ffd700">✦</text>
+    </g>
+    
+    <!-- Plato 3: Arroz -->
+    <g id="arroz" transform="translate(950, 120)">
+      <ellipse cx="100" cy="150" rx="90" ry="25" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Arroz -->
+      <circle cx="70" cy="135" r="3" fill="#ffd700"/>
+      <circle cx="85" cy="125" r="3" fill="#ffd700"/>
+      <circle cx="100" cy="120" r="3" fill="#ffd700"/>
+      <circle cx="115" cy="125" r="3" fill="#ffd700"/>
+      <circle cx="130" cy="135" r="3" fill="#ffd700"/>
+      <circle cx="75" cy="150" r="3" fill="#ffd700"/>
+      <circle cx="95" cy="155" r="3" fill="#ffd700"/>
+      <circle cx="125" cy="150" r="3" fill="#ffd700"/>
+      <!-- Mariscos/Verduras -->
+      <circle cx="100" cy="140" r="8" fill="#ff6b6b"/>
+      <circle cx="85" cy="145" r="6" fill="#22c55e"/>
+    </g>
+    
+    <!-- Plato 4: Postre -->
+    <g id="postre" transform="translate(550, 340)">
+      <ellipse cx="100" cy="150" rx="90" ry="25" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Tarta -->
+      <rect x="40" y="100" width="120" height="70" fill="#8b4513" stroke="#333" stroke-width="2"/>
+      <!-- Capas -->
+      <rect x="40" y="100" width="120" height="20" fill="#a0522d"/>
+      <rect x="40" y="140" width="120" height="20" fill="#d2691e"/>
+      <!-- Cobertura -->
+      <circle cx="100" cy="95" r="20" fill="#fff8dc"/>
+      <text x="100" y="100" font-size="16" text-anchor="middle" fill="#ffd700">★</text>
+    </g>
+    
+    <!-- Plato 5: Pescado -->
+    <g id="pescado" transform="translate(750, 340)">
+      <ellipse cx="100" cy="150" rx="90" ry="25" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Pescado -->
+      <ellipse cx="100" cy="130" rx="60" ry="30" fill="#ff9999" stroke="#333" stroke-width="2"/>
+      <!-- Ojo -->
+      <circle cx="120" cy="120" r="4" fill="#333"/>
+      <!-- Aleta -->
+      <path d="M 140 130 L 160 115 L 155 145 Z" fill="#ff9999" stroke="#333"/>
+      <!-- Limón -->
+      <circle cx="60" cy="145" r="15" fill="#ffff00" stroke="#333" stroke-width="1.5"/>
+      <!-- Perejil -->
+      <path d="M 70 110 L 75 95 L 80 110" fill="#22c55e"/>
+    </g>
+    
+    <!-- Plato 6: Carne -->
+    <g id="carne" transform="translate(950, 340)">
+      <ellipse cx="100" cy="150" rx="90" ry="25" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+      <!-- Costillas -->
+      <path d="M 50 130 L 70 125 M 60 135 L 80 130 M 70 140 L 90 135 M 80 145 L 100 140" 
+            stroke="#8b4513" stroke-width="4" fill="none"/>
+      <path d="M 110 140 L 130 135 M 120 145 L 140 140 M 130 150 L 150 145" 
+            stroke="#8b4513" stroke-width="4" fill="none"/>
+      <!-- Salsa -->
+      <circle cx="100" cy="155" r="8" fill="#dc2626" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Texto descriptivo -->
+  <text x="600" y="580" font-family="Sora, sans-serif" font-size="20" font-weight="bold" fill="#991b1b" text-anchor="middle">
+    ATROZ RESTAURANTE • Cocina honesta • Sabor real • Castelldefels, Barcelona
+  </text>
+</svg>

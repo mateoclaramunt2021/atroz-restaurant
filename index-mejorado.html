@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ATROZ Restaurante. Gastronomía honesta, moderna y sin pretensiones en Castelldefels, Barcelona. Desayunos, comidas, tapas y cenas de calidad.">
+    <meta name="keywords" content="restaurante, Barcelona, Castelldefels, tapas, cena, comida, reserva, gastronomía, cocina moderna">
+    <meta name="author" content="ATROZ Restaurante">
+    <meta property="og:title" content="ATROZ Restaurante - Cocina honesta en Castelldefels">
+    <meta property="og:description" content="Gastronomía moderna sin pretensiones en Castelldefels, Barcelona">
+    <meta property="og:type" content="website">
+    <title>ATROZ Restaurante | Cocina honesta en Castelldefels, Barcelona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN PREMIUM -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">ATROZ</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre nosotros</a></li>
+                <li><a href="#menu" class="nav-link">Carta</a></li>
+                <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#reserve" class="btn-reserve-nav">Reservar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION - IMPACTANTE -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Cocina honesta.<br>Sabor real.<br>Momentos Atroz.</h1>
+            <p class="hero-subtitle">Gastronomía moderna sin pretensiones. Café, desayuno, tapas, comida y cena en Castelldefels. Donde el producto habla por sí solo.</p>
+            <div class="hero-cta">
+                <a href="#menu" class="btn btn-primary">Ver carta</a>
+                <a href="#reserve" class="btn btn-secondary">Reservar mesa</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+                    <rect fill="#fee2e2" width="600" height="600"/>
+                    <circle cx="300" cy="200" r="80" fill="#dc2626" opacity="0.8"/>
+                    <rect x="150" y="300" width="300" height="200" fill="#dc2626" opacity="0.6" rx="10"/>
+                    <text x="300" y="420" font-family="Playfair Display, serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">ATROZ</text>
+                    <text x="300" y="500" font-family="Sora, sans-serif" font-size="20" fill="#991b1b" text-anchor="middle">Cocina honesta</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: SOBRE ATROZ -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Más que un restaurante</h2>
+            <p class="about-description">
+                Atroz es un espacio pensado para disfrutar sin complicaciones: buena cocina, producto cuidado y un ambiente donde apetece quedarse. 
+            </p>
+            <p class="about-description">
+                Cocina honesta y moderna, con raíces mediterráneas y el pulso urbano de Barcelona. Abierto para desayunos tranquilos, comidas con amigos, cenas especiales o simplemente para parar a tomar algo. 
+            </p>
+            <p class="about-description">
+                Aquí el producto habla por sí solo, sin necesidad de exageraciones. Solo lo que nos importa: que sientas la diferencia en cada plato. Somos Atroz porque nos importan los detalles, la calidad y tu experiencia.
+            </p>
+            <div class="about-features">
+                <div class="feature-item">
+                    <span class="feature-icon">☕</span>
+                    <h3>Desayunos Premium</h3>
+                    <p>Café de calidad y desayunos que merecen la pena comenzar el día</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🍴</span>
+                    <h3>Cocina de Verdad</h3>
+                    <p>Producto seleccionado, técnica depurada y sabor auténtico</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🌿</span>
+                    <h3>Ambiente Vivo</h3>
+                    <p>Espacio versátil donde apetece quedarse y vivir momentos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CARTA COMPLETA -->
+    <section id="menu" class="menu">
+        <h2>Nuestra carta</h2>
+        <p class="menu-intro">Cocina versátil para cada momento del día. Desde el café matutino hasta las copas de la noche.</p>
+
+        <!-- CAFÉ Y TÉ -->
+        <div class="menu-category">
+            <h3 class="category-title">☕ Café y Té</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Espresso</div>
+                    <div class="item-price">1,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cortado</div>
+                    <div class="item-price">1,60 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Americano</div>
+                    <div class="item-price">1,70 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Café con leche</div>
+                    <div class="item-price">1,80 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cappuccino</div>
+                    <div class="item-price">2,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Carajillo</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Té / Infusión</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ZUMOS -->
+        <div class="menu-category">
+            <h3 class="category-title">🧃 Zumos Frescos</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Zumo natural de naranja</div>
+                    <div class="item-price">3,90 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Zumo granini (melocotón / piña / manzana)</div>
+                    <div class="item-price">2,00 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- REFRESCOS -->
+        <div class="menu-category">
+            <h3 class="category-title">🥤 Refrescos y Aguas</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Agua</div>
+                    <div class="item-price">2,20 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Agua Vichy</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Coca-Cola / Zero</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Fanta limón / naranja</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Sprite</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Aquarius</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Nestea</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Bitter Kas</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Tónica Schweppes</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cacaolat</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VINOS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍷 Vinos Seleccionados</h3>
+            <div class="wine-note">Copa / Botella</div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Tinto Ribera del Duero</div>
+                    <div class="item-price">3,00 € / 14,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Tinto Montsant</div>
+                    <div class="item-price">4,00 € / 18,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Blanco Verdejo</div>
+                    <div class="item-price">3,00 € / 16,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Rosado</div>
+                    <div class="item-price">3,00 € / 15,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cava</div>
+                    <div class="item-price">3,50 € / 16,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CERVEZAS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍺 Cervezas Artesanales</h3>
+            <div class="menu-grid">
+                <div class="menu-item full-width">
+                    <div class="item-name"><strong>Barril Estrella Damm</strong></div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cañita</div>
+                    <div class="item-price">1,80 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Caña</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Jarra</div>
+                    <div class="item-price">4,00 €</div>
+                </div>
+                <div class="menu-item full-width">
+                    <div class="item-name"><strong>Barril Turia</strong></div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cañita</div>
+                    <div class="item-price">2,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Caña</div>
+                    <div class="item-price">2,60 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Jarra</div>
+                    <div class="item-price">4,50 €</div>
+                </div>
+                <div class="menu-item full-width">
+                    <div class="item-name"><strong>Botellas Premium</strong></div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Estrella Damm</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Voll-Damm</div>
+                    <div class="item-price">2,60 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Daura</div>
+                    <div class="item-price">2,60 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Free Damm</div>
+                    <div class="item-price">2,60 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Clara</div>
+                    <div class="item-price">2,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SANGRÍA -->
+        <div class="menu-category">
+            <h3 class="category-title">🍸 Sangría Casera</h3>
+            <div class="wine-note">Copa / Jarra</div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Tinto / Blanco / Cava</div>
+                    <div class="item-price">5,50 € / 16,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COPAS Y CÓCTELES -->
+        <div class="menu-category">
+            <h3 class="category-title">🍹 Copas y Cócteles</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Aperol Spritz</div>
+                    <div class="item-price">6,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Mimosa</div>
+                    <div class="item-price">4,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Combinados Clásicos</div>
+                    <div class="item-price">7,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Gin tonic Diputación</div>
+                    <div class="item-price">3,80 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Shots Variados</div>
+                    <div class="item-price">2,40 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VERMUT -->
+        <div class="menu-category">
+            <h3 class="category-title">🥃 Vermut de la Casa</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Chips</div>
+                    <div class="item-price">1,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Cóctel de olivas</div>
+                    <div class="item-price">2,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Gildas (anchoa, oliva, guindilla)</div>
+                    <div class="item-price">2,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Vermut de la casa</div>
+                    <div class="item-price">2,80 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HAMBURGUESAS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍔 Hamburguesas Artesanales</h3>
+            <div class="menu-note">Incluyen patatas crujientes</div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Atroz Burger</div>
+                    <div class="item-price">12,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Smash Burger</div>
+                    <div class="item-price">12,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Chicken Burger</div>
+                    <div class="item-price">11,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Vegan Burger</div>
+                    <div class="item-price">10,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARNE -->
+        <div class="menu-category">
+            <h3 class="category-title">🥩 Carne Premium</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Costillas de cerdo tiernas y jugosas</div>
+                    <div class="item-price">14,90 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WOKS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍜 Woks de Temporada</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Wok de Pollo</div>
+                    <div class="item-price">10,00 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Wok de Ternera</div>
+                    <div class="item-price">11,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Wok de Gambas y Coco</div>
+                    <div class="item-price">12,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Wok Vegano</div>
+                    <div class="item-price">9,00 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PASTAS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍝 Pastas Italianas</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Boloñesa Atroz</div>
+                    <div class="item-price">11,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Carbonara Auténtica</div>
+                    <div class="item-price">10,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Pesto Genovés</div>
+                    <div class="item-price">9,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Lasaña Casera</div>
+                    <div class="item-price">9,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Parmigiana</div>
+                    <div class="item-price">8,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ARROCES -->
+        <div class="menu-category">
+            <h3 class="category-title">🍚 Arroces y Risottos</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Risotto de Setas</div>
+                    <div class="item-price">9,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Risotto Ibérico</div>
+                    <div class="item-price">11,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Arroz Negro</div>
+                    <div class="item-price">14,50 €</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">Paella Mixta</div>
+                    <div class="item-price">15,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARTAS -->
+        <div class="menu-category">
+            <h3 class="category-title">🍰 Postres Especiales</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-name">Tarta de Queso / Zanahoria / Chocolate</div>
+                    <div class="item-price">4,50 €</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOCATAS, TOSTADAS, TAPAS, ENSALADAS, BOWLS -->
+        <div class="menu-category">
+            <h3 class="category-title">🥪 Bocatas, Tostadas, Tapas y Bowls</h3>
+            <p class="category-description">Selección completa de bocatas, tostadas gourmet, tapas de temporada, ensaladas frescas y bowls nutritivos. Pide asesoramiento a nuestro equipo.</p>
+            <div class="menu-grid">
+                <div class="menu-item highlight">
+                    <div class="item-name">Bocatas con Ibérico Premium</div>
+                    <div class="item-price">Desde 8,50 €</div>
+                </div>
+                <div class="menu-item highlight">
+                    <div class="item-name">Tostadas de Autor</div>
+                    <div class="item-price">Desde 7,50 €</div>
+                </div>
+                <div class="menu-item highlight">
+                    <div class="item-name">Tapas de Temporada</div>
+                    <div class="item-price">Desde 5,00 €</div>
+                </div>
+                <div class="menu-item highlight">
+                    <div class="item-name">Ensaladas y Bowls</div>
+                    <div class="item-price">Desde 8,00 €</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: EXPERIENCIA -->
+    <section id="experience" class="experience">
+        <h2>La experiencia Atroz</h2>
+        
+        <!-- Galería de imágenes -->
+        <div class="gallery-section">
+            <h3>Nuestros Platos y Ambiente</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/galeria-atroz.svg" alt="Galería de platos ATROZ" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/plato-burger.svg" alt="Atroz Burger Especialidad" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/plato-pasta.svg" alt="Carbonara Italiana" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/plato-arroz.svg" alt="Arroz Negro con Mariscos" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/plato-pescado.svg" alt="Pescado del Día" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/plato-postre.svg" alt="Tarta de Queso Frutos Rojos" loading="lazy">
+                </div>
+            </div>
+        </div>
+        
+        <div class="experience-content">
+            <div class="experience-text">
+                <p>
+                    Más allá de la comida, en Atroz buscamos que vivas momentos auténticos. Porque el buen comer empieza antes de sentarse a la mesa.
+                </p>
+                <p>
+                    Ambiente acogedor donde la urbanidad barcelonesa se mezcla con la calidez mediterránea. Espacio pensado para la gente que valora los detalles: desde el café bien hecho por la mañana hasta las copas de la noche.
+                </p>
+                <p>
+                    Aquí eres bienvenido si vienes solo, con amigos, en pareja o en familia. Y si tienes un evento especial, hablamos contigo: sabemos adaptar el espacio a lo que necesitas.
+                </p>
+            </div>
+            <div class="experience-highlights">
+                <div class="highlight-card">
+                    <h4>Desayunos Tranquilos</h4>
+                    <p>Café de calidad y propuestas variadas para empezar el día con energía.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Comidas en Grupo</h4>
+                    <p>Ambiente relajado para compartir mesa, conversación y momentos.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Cenas Especiales</h4>
+                    <p>Menús pensados para que cada noche sea memorable y auténtica.</p>
+                </div>
+                <div class="highlight-card">
+                    <h4>Eventos Privados</h4>
+                    <p>Disponible para celebraciones, cumpleaños y encuentros exclusivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: RESERVAS -->
+    <section id="reserve" class="reserve">
+        <h2>Reserva tu mesa</h2>
+        <p class="reserve-subtitle">Queremos que tu visita sea perfecta. Elige cómo te es más cómodo contactarnos.</p>
+        
+        <div class="reserve-options">
+            <div class="reserve-method">
+                <div class="method-icon">📞</div>
+                <h3>Llamada Directa</h3>
+                <p>Habla con nuestro equipo</p>
+                <a href="tel:+34937652345" class="btn btn-outline">+34 93 765 23 45</a>
+            </div>
+            
+            <div class="reserve-method">
+                <div class="method-icon">💬</div>
+                <h3>WhatsApp</h3>
+                <p>Mensaje instantáneo</p>
+                <a href="https://wa.me/34937652345" target="_blank" class="btn btn-outline">Enviar WhatsApp</a>
+            </div>
+            
+            <div class="reserve-method">
+                <div class="method-icon">📧</div>
+                <h3>Formulario</h3>
+                <p>Cuéntanos tus planes</p>
+                <a href="#contact-form" class="btn btn-outline">Enviar Mensaje</a>
+            </div>
+        </div>
+
+        <div class="hours-info">
+            <h3>Horarios de Atención</h3>
+            <div class="hours-grid">
+                <div class="hour-item">
+                    <span class="day">Lunes - Viernes</span>
+                    <span class="time">8:00 - 23:00</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Sábado</span>
+                    <span class="time">9:00 - 00:00</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Domingo</span>
+                    <span class="time">9:00 - 23:00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: UBICACIÓN -->
+    <section id="location" class="location">
+        <h2>Encuéntranos</h2>
+        <div class="location-content">
+            <div class="location-info">
+                <h3>Ubicación</h3>
+                <p class="address">
+                    <strong>ATROZ Restaurante</strong><br>
+                    Avenida Principal, 42<br>
+                    08860 Castelldefels, Barcelona<br>
+                    España
+                </p>
+                
+                <div class="location-links">
+                    <a href="https://maps.google.com/?q=Castelldefels+Barcelona" target="_blank" class="btn btn-outline">🗺️ Cómo llegar (Google Maps)</a>
+                    <a href="tel:+34937652345" class="btn btn-outline">📞 Llamar</a>
+                </div>
+
+                <div class="transport">
+                    <h4>Cómo Llegar</h4>
+                    <ul>
+                        <li><strong>Autobús:</strong> Líneas 141, 155, 164</li>
+                        <li><strong>Coche:</strong> Aparcamiento disponible cerca</li>
+                        <li><strong>A pie:</strong> Centro accesible de Castelldefels</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.4097631447806!2d1.937!3d41.28!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a5c34f8e5e5e5d%3A0x5e5e5e5e5e5e5e5e!2sCastelldefels!5e0!3m2!1ses!2ses!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p class="contact-intro">Tienes preguntas, sugerencias o quieres organizar un evento personalizado. Nos encantaría escucharte.</p>
+        
+        <div class="contact-content">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre Completo *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Asunto *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="reserva">Reserva de mesa</option>
+                        <option value="evento">Evento privado</option>
+                        <option value="pregunta">Pregunta general</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group full-width">
+                    <label for="message">Mensaje *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <h4>📞 Teléfono</h4>
+                    <a href="tel:+34937652345">+34 93 765 23 45</a>
+                </div>
+                
+                <div class="info-item">
+                    <h4>💬 WhatsApp</h4>
+                    <a href="https://wa.me/34937652345" target="_blank">+34 937 652 345</a>
+                </div>
+                
+                <div class="info-item">
+                    <h4>📧 Email</h4>
+                    <a href="mailto:info@atrozrestaurante.es">info@atrozrestaurante.es</a>
+                </div>
+                
+                <div class="info-item">
+                    <h4>📱 Instagram</h4>
+                    <a href="https://instagram.com/atrozrestaurante" target="_blank">@atrozrestaurante</a>
+                </div>
+                
+                <div class="info-item">
+                    <h4>🌐 Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/atrozrestaurante" target="_blank">Facebook</a>
+                        <a href="https://instagram.com/atrozrestaurante" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER PREMIUM -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">ATROZ</div>
+                <p>Cocina honesta. Sabor real. Momentos únicos.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Navegación</h5>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre nosotros</a></li>
+                    <li><a href="#menu">Carta</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Contacto</h5>
+                <ul>
+                    <li><a href="tel:+34937652345">+34 93 765 23 45</a></li>
+                    <li><a href="https://wa.me/34937652345" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://maps.google.com/?q=ATROZ+Castelldefels" target="_blank">Cómo llegar</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Síguenos</h5>
+                <div class="social-links footer-social">
+                    <a href="https://facebook.com/atrozrestaurante" target="_blank">Facebook</a>
+                    <a href="https://instagram.com/atrozrestaurante" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 ATROZ Restaurante. Todos los derechos reservados.</p>
+            <div class="footer-legal">
+                <a href="#">Política de privacidad</a> | 
+                <a href="#">Términos y condiciones</a> | 
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

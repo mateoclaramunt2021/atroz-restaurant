@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="platoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff5e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe8cc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="600" height="600" fill="url(#platoBg)"/>
+  
+  <!-- Plato base -->
+  <circle cx="300" cy="300" r="200" fill="#f5deb3" stroke="#333" stroke-width="3"/>
+  <ellipse cx="300" cy="300" rx="195" ry="30" fill="#e8dcc8" stroke="none"/>
+  
+  <!-- Sombra interior -->
+  <ellipse cx="300" cy="320" rx="180" ry="20" fill="#d3d3d3" opacity="0.3"/>
+  
+  <!-- ATROZ Burger especialidad -->
+  <!-- Pan inferior -->
+  <circle cx="300" cy="280" r="80" fill="#d4a574" stroke="#333" stroke-width="2"/>
+  <ellipse cx="300" cy="280" rx="80" ry="20" fill="#cd853f" stroke="none"/>
+  
+  <!-- Semillas en pan -->
+  <circle cx="270" cy="250" r="4" fill="#fff5e6"/>
+  <circle cx="290" cy="245" r="4" fill="#fff5e6"/>
+  <circle cx="310" cy="245" r="4" fill="#fff5e6"/>
+  <circle cx="330" cy="250" r="4" fill="#fff5e6"/>
+  
+  <!-- Lechuga primera capa -->
+  <ellipse cx="300" cy="290" rx="75" ry="12" fill="#7cb342"/>
+  <path d="M 235 290 Q 240 285 250 290 Q 260 285 270 290" fill="#558b2f"/>
+  <path d="M 330 290 Q 340 285 350 290 Q 360 285 370 290" fill="#558b2f"/>
+  
+  <!-- Queso -->
+  <rect x="250" y="305" width="100" height="25" fill="#ffd700" stroke="#333" stroke-width="1"/>
+  <circle cx="260" cy="315" r="2" fill="#ffed4e" opacity="0.6"/>
+  <circle cx="280" cy="318" r="2" fill="#ffed4e" opacity="0.6"/>
+  <circle cx="300" cy="317" r="2" fill="#ffed4e" opacity="0.6"/>
+  <circle cx="320" cy="318" r="2" fill="#ffed4e" opacity="0.6"/>
+  <circle cx="340" cy="315" r="2" fill="#ffed4e" opacity="0.6"/>
+  
+  <!-- Carne principal -->
+  <ellipse cx="300" cy="340" rx="85" ry="22" fill="#8b4513" stroke="#333" stroke-width="2"/>
+  <ellipse cx="280" cy="338" rx="35" ry="15" fill="#a0522d"/>
+  <ellipse cx="320" cy="338" rx="35" ry="15" fill="#a0522d"/>
+  
+  <!-- Tomate -->
+  <circle cx="260" cy="360" r="18" fill="#dc2626" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="260" cy="358" rx="16" ry="14" fill="#ef4444"/>
+  <path d="M 260 340 L 258 335 L 262 335" fill="#22c55e"/>
+  
+  <!-- Tomate 2 -->
+  <circle cx="340" cy="360" r="18" fill="#dc2626" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="340" cy="358" rx="16" ry="14" fill="#ef4444"/>
+  <path d="M 340 340 L 338 335 L 342 335" fill="#22c55e"/>
+  
+  <!-- Cebolla morada -->
+  <circle cx="300" cy="375" r="15" fill="#d8bfd8" stroke="#333" stroke-width="1.5"/>
+  <circle cx="298" cy="373" r="6" fill="#dda0dd"/>
+  
+  <!-- Salsa -->
+  <path d="M 250 365 Q 270 370 300 372 Q 330 370 350 365" 
+        fill="none" stroke="#8b4513" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Pan superior -->
+  <circle cx="300" cy="200" r="75" fill="#cd853f" stroke="#333" stroke-width="2"/>
+  <ellipse cx="300" cy="200" rx="75" ry="20" fill="#d4a574" stroke="none"/>
+  
+  <!-- Semillas en pan superior -->
+  <circle cx="275" cy="175" r="4" fill="#fff5e6"/>
+  <circle cx="295" cy="170" r="4" fill="#fff5e6"/>
+  <circle cx="315" cy="170" r="4" fill="#fff5e6"/>
+  <circle cx="335" cy="175" r="4" fill="#fff5e6"/>
+  <circle cx="300" cy="185" r="3" fill="#fff5e6"/>
+  
+  <!-- Brillo en pan -->
+  <ellipse cx="285" cy="190" rx="30" ry="15" fill="#fff5e6" opacity="0.3"/>
+  
+  <!-- Nombre -->
+  <text x="300" y="530" font-family="Playfair Display, serif" font-size="32" font-weight="bold" fill="#991b1b" text-anchor="middle">
+    ATROZ BURGER
+  </text>
+  <text x="300" y="560" font-family="Sora, sans-serif" font-size="16" fill="#dc2626" text-anchor="middle">
+    Especialidad de la casa • 12,50 €
+  </text>
+</svg>

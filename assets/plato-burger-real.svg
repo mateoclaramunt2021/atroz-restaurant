@@ -1,0 +1,68 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="sesame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574"/>
+      <stop offset="50%" style="stop-color:#c99461"/>
+      <stop offset="100%" style="stop-color:#b8844d"/>
+    </linearGradient>
+    <linearGradient id="meat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513"/>
+      <stop offset="50%" style="stop-color:#6b3410"/>
+      <stop offset="100%" style="stop-color:#5a2d0c"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="200" cy="350" rx="120" ry="35" fill="url(#shadow)"/>
+  
+  <!-- Plato blanco -->
+  <circle cx="200" cy="180" r="140" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Pan inferior -->
+  <ellipse cx="200" cy="240" rx="90" ry="50" fill="url(#sesame)"/>
+  <ellipse cx="200" cy="235" rx="90" ry="48" fill="#d4a574"/>
+  
+  <!-- Semillas de sésamo -->
+  <circle cx="160" cy="225" r="4" fill="#f5deb3"/>
+  <circle cx="240" cy="220" r="4" fill="#f5deb3"/>
+  <circle cx="180" cy="245" r="3" fill="#f5deb3"/>
+  <circle cx="220" cy="248" r="3" fill="#f5deb3"/>
+  
+  <!-- Lechuga -->
+  <ellipse cx="200" cy="200" rx="85" ry="20" fill="#6b8e23" opacity="0.9"/>
+  <path d="M 160 200 Q 170 190 200 195 Q 230 190 240 200" fill="#7ba428" opacity="0.7"/>
+  
+  <!-- Queso fundido -->
+  <ellipse cx="200" cy="185" rx="80" ry="18" fill="#f4a460"/>
+  <ellipse cx="200" cy="182" rx="80" ry="16" fill="#ff9800"/>
+  
+  <!-- Carne jugosa -->
+  <ellipse cx="200" cy="170" rx="82" ry="22" fill="url(#meat)"/>
+  <ellipse cx="200" cy="167" rx="82" ry="20" fill="#8b4513"/>
+  
+  <!-- Marcas de la parrilla en la carne -->
+  <line x1="140" y1="165" x2="260" y2="165" stroke="#5a2d0c" stroke-width="1.5"/>
+  <line x1="140" y1="170" x2="260" y2="170" stroke="#5a2d0c" stroke-width="1"/>
+  
+  <!-- Tomate -->
+  <circle cx="150" cy="190" r="12" fill="#dc143c"/>
+  <ellipse cx="150" cy="185" rx="12" ry="10" fill="#ff1744"/>
+  
+  <!-- Cebolla -->
+  <circle cx="250" cy="192" r="10" fill="#ffd700"/>
+  <ellipse cx="250" cy="188" rx="10" ry="8" fill="#ffed4e"/>
+  
+  <!-- Pan superior -->
+  <ellipse cx="200" cy="140" rx="92" ry="45" fill="url(#sesame)"/>
+  <ellipse cx="200" cy="135" rx="92" ry="43" fill="#d4a574"/>
+  
+  <!-- Semillas superiores -->
+  <circle cx="170" cy="125" r="4" fill="#f5deb3"/>
+  <circle cx="230" cy="128" r="4" fill="#f5deb3"/>
+  <circle cx="200" cy="115" r="3" fill="#f5deb3"/>
+  <circle cx="210" cy="135" r="3" fill="#f5deb3"/>
+</svg>

@@ -1,0 +1,98 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow2" cx="50%" cy="80%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="panSuperior" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574"/>
+      <stop offset="25%" style="stop-color:#c9985f"/>
+      <stop offset="50%" style="stop-color:#b8844d"/>
+      <stop offset="75%" style="stop-color:#a67a42"/>
+      <stop offset="100%" style="stop-color:#8b6936"/>
+    </linearGradient>
+    <linearGradient id="carne" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a3a1a"/>
+      <stop offset="50%" style="stop-color:#5a2a0a"/>
+      <stop offset="100%" style="stop-color:#3a1a0a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="250" cy="420" rx="160" ry="50" fill="url(#shadow2)"/>
+  
+  <!-- Plato blanco -->
+  <circle cx="250" cy="220" r="180" fill="#ffffff" stroke="#ddd" stroke-width="3"/>
+  
+  <!-- Pan inferior con textura -->
+  <ellipse cx="250" cy="310" rx="130" ry="60" fill="#d4a574"/>
+  <ellipse cx="250" cy="305" rx="130" ry="58" fill="#c9985f"/>
+  
+  <!-- Textura del pan inferior -->
+  <ellipse cx="200" cy="300" rx="15" ry="20" fill="#b8844d" opacity="0.3"/>
+  <ellipse cx="300" cy="295" rx="12" ry="18" fill="#b8844d" opacity="0.3"/>
+  <ellipse cx="230" cy="315" rx="10" ry="15" fill="#a67a42" opacity="0.4"/>
+  
+  <!-- Semillas grandes de sésamo -->
+  <circle cx="180" cy="290" r="6" fill="#f5deb3"/>
+  <circle cx="220" cy="285" r="6" fill="#f5deb3"/>
+  <circle cx="280" cy="290" r="6" fill="#f5deb3"/>
+  <circle cx="320" cy="295" r="6" fill="#f5deb3"/>
+  <circle cx="200" cy="325" r="5" fill="#f5deb3"/>
+  <circle cx="300" cy="330" r="5" fill="#f5deb3"/>
+  
+  <!-- Lechuga crujiente -->
+  <path d="M 140 270 Q 160 255 180 270 Q 200 250 220 270 Q 240 255 260 270 Q 280 250 300 270 Q 320 255 340 270" fill="#6b8e23" stroke="#5a7a1f" stroke-width="1"/>
+  <path d="M 145 278 Q 170 270 200 282 Q 230 270 260 280 Q 290 268 325 280" fill="#7ba428"/>
+  
+  <!-- Queso fundido brillante -->
+  <ellipse cx="250" cy="255" rx="125" ry="30" fill="#ff9800"/>
+  <ellipse cx="250" cy="252" rx="125" ry="28" fill="#ffb74d"/>
+  <path d="M 150 250 Q 180 240 250 245 Q 320 240 350 250" fill="#ffc107" opacity="0.4"/>
+  
+  <!-- Carne jugosa con parrilla -->
+  <ellipse cx="250" cy="220" rx="128" ry="35" fill="url(#carne)"/>
+  <ellipse cx="250" cy="217" rx="128" ry="33" fill="#6b3410"/>
+  
+  <!-- Marcas de parrilla reales -->
+  <line x1="140" y1="210" x2="360" y2="210" stroke="#3a1a0a" stroke-width="2.5" opacity="0.7"/>
+  <line x1="138" y1="220" x2="362" y2="220" stroke="#3a1a0a" stroke-width="2" opacity="0.6"/>
+  <line x1="140" y1="230" x2="360" y2="230" stroke="#3a1a0a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Tomate rojo vibrante -->
+  <circle cx="160" cy="265" r="18" fill="#ff1744"/>
+  <ellipse cx="158" cy="258" rx="18" ry="16" fill="#dc143c"/>
+  <path d="M 160 250 L 165 245 L 162 248" fill="#2d5016"/>
+  <ellipse cx="165" cy="270" rx="4" ry="3" fill="#c41e3a"/>
+  
+  <!-- Cebolla dorada -->
+  <circle cx="320" cy="268" r="16" fill="#ffd700"/>
+  <ellipse cx="318" cy="262" rx="16" ry="14" fill="#ffed4e"/>
+  <path d="M 320 252 Q 322 256 318 258" fill="#f4c430" opacity="0.6"/>
+  
+  <!-- Lechuga adicional con detalle -->
+  <ellipse cx="210" cy="248" rx="20" ry="12" fill="#6b8e23"/>
+  <ellipse cx="280" cy="252" rx="22" ry="13" fill="#7ba428"/>
+  
+  <!-- Pan superior con textura realista -->
+  <ellipse cx="250" cy="140" rx="135" ry="55" fill="url(#panSuperior)"/>
+  <ellipse cx="250" cy="135" rx="135" ry="53" fill="#c9985f"/>
+  
+  <!-- Textura del pan superior -->
+  <ellipse cx="200" cy="125" rx="18" ry="22" fill="#a67a42" opacity="0.3"/>
+  <ellipse cx="310" cy="128" rx="15" ry="20" fill="#a67a42" opacity="0.3"/>
+  <ellipse cx="240" cy="145" rx="12" ry="18" fill="#8b6936" opacity="0.4"/>
+  
+  <!-- Semillas superiores -->
+  <circle cx="170" cy="115" r="6" fill="#f5deb3"/>
+  <circle cx="210" cy="108" r="6" fill="#f5deb3"/>
+  <circle cx="250" cy="100" r="6" fill="#f5deb3"/>
+  <circle cx="290" cy="108" r="6" fill="#f5deb3"/>
+  <circle cx="330" cy="120" r="6" fill="#f5deb3"/>
+  <circle cx="190" cy="148" r="5" fill="#f5deb3"/>
+  <circle cx="310" cy="150" r="5" fill="#f5deb3"/>
+  
+  <!-- Brillo de pan tostado -->
+  <ellipse cx="220" cy="120" rx="30" ry="20" fill="#fff9e6" opacity="0.2"/>
+  <ellipse cx="280" cy="125" rx="25" ry="18" fill="#fff9e6" opacity="0.15"/>
+</svg>

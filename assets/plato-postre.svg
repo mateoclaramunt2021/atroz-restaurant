@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="platoBg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d4e0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="brilloTarta" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="600" height="600" fill="url(#platoBg5)"/>
+  
+  <!-- Plato base -->
+  <circle cx="300" cy="300" r="200" fill="#faf9f7" stroke="#ddd" stroke-width="2"/>
+  <ellipse cx="300" cy="300" rx="195" ry="30" fill="#f0e8e0" stroke="none"/>
+  
+  <!-- TARTA DE QUESO Y FRUTOS ROJOS -->
+  
+  <!-- Base de galeta (galleta dorada) -->
+  <ellipse cx="300" cy="300" rx="120" ry="25" fill="#d4a574" stroke="#a0826d" stroke-width="1.5"/>
+  
+  <!-- Relleno principal: queso cremoso -->
+  <path d="M 180 300 Q 180 260 300 250 Q 420 260 420 300 L 420 310 Q 300 320 180 310 Z" 
+        fill="#f5d5c8" stroke="#d4a574" stroke-width="1"/>
+  
+  <!-- Capa superior de queso -->
+  <ellipse cx="300" cy="285" rx="110" ry="35" fill="#fce4d6" stroke="none"/>
+  
+  <!-- FRUTOS ROJOS decorativos -->
+  <!-- Fresas -->
+  <g id="fresa1">
+    <path d="M 240 270 Q 235 260 245 255 Q 255 260 250 270" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+    <circle cx="242" cy="268" r="2" fill="#ffd700" opacity="0.4"/>
+    <!-- Hojitas -->
+    <line x1="242" y1="255" x2="238" y2="245" stroke="#22c55e" stroke-width="1.5"/>
+    <line x1="242" y1="255" x2="246" y2="245" stroke="#22c55e" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Frambuesas -->
+  <g id="frambuesa1">
+    <circle cx="320" cy="260" r="8" fill="#c41e3a" stroke="#8b0000" stroke-width="1"/>
+    <circle cx="325" cy="263" r="6" fill="#dc2626"/>
+    <circle cx="318" cy="265" r="6" fill="#dc2626"/>
+  </g>
+  
+  <!-- Arándanos -->
+  <circle cx="270" cy="275" r="6" fill="#4f46e5" stroke="#312e81" stroke-width="0.5"/>
+  <circle cx="290" cy="268" r="6" fill="#4f46e5" stroke="#312e81" stroke-width="0.5"/>
+  <circle cx="360" cy="270" r="6" fill="#4f46e5" stroke="#312e81" stroke-width="0.5"/>
+  <circle cx="350" cy="280" r="6" fill="#4f46e5" stroke="#312e81" stroke-width="0.5"/>
+  
+  <!-- Más fresas -->
+  <g id="fresa2">
+    <path d="M 380 275 Q 375 265 385 260 Q 395 265 390 275" fill="#dc2626" stroke="#991b1b" stroke-width="1"/>
+    <circle cx="387" cy="273" r="1.5" fill="#ffd700" opacity="0.4"/>
+  </g>
+  
+  <!-- Menta fresca -->
+  <path d="M 250 295 L 245 285 L 248 280 L 253 288 Z" fill="#22c55e" opacity="0.8"/>
+  <path d="M 360 300 L 365 290 L 368 295 L 363 305 Z" fill="#22c55e" opacity="0.8"/>
+  
+  <!-- Coulis de frambuesa (decoración lateral) -->
+  <path d="M 200 310 Q 210 300 220 310" stroke="#c41e3a" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 380 310 Q 390 300 400 310" stroke="#c41e3a" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Brillo en la tarta -->
+  <ellipse cx="300" cy="265" rx="80" ry="20" fill="url(#brilloTarta)"/>
+  
+  <!-- Polvos de azúcar glas (toques decorativos) -->
+  <circle cx="230" cy="250" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="370" cy="250" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="300" cy="240" r="1" fill="#fff" opacity="0.7"/>
+  
+  <!-- Chocolate derretido decorativo -->
+  <path d="M 180 305 L 185 320" stroke="#8b4513" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 420 305 L 415 320" stroke="#8b4513" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Nombre y precio -->
+  <text x="300" y="530" font-family="Playfair Display, serif" font-size="32" font-weight="bold" fill="#991b1b" text-anchor="middle">
+    TARTA DE QUESO
+  </text>
+  <text x="300" y="560" font-family="Sora, sans-serif" font-size="16" fill="#dc2626" text-anchor="middle">
+    Con frutos rojos frescos • 5,50 €
+  </text>
+</svg>

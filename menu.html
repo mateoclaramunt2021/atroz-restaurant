@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú | ATROZ Restaurante</title>
+    <meta name="description" content="Descubre el menú completo de ATROZ: hamburguesas, platos de arroz, pastas, pescados, desayunos y más en Castelldefels.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html?page=inicio">
+                    <img src="assets/img/logo-atroz.png" alt="Atroz Restaurante" class="logo-image">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html?page=inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#carta" class="nav-link active">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#weekly" class="nav-link">Menú de la semana</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiencia.html" class="nav-link">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reservas.html" class="nav-link">Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ubicacion.html" class="nav-link">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nuestra Carta y Menú</h1>
+            <p>Descubre nuestra selección de platos honestos y de calidad</p>
+        </div>
+    </section>
+
+    <!-- CARTA COMPLETA -->
+    <section class="menu-section" id="carta">
+        <div class="container">
+            <!-- Filtro de Categorías -->
+            <div class="menu-filters">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: #6b0f0f;">Carta Completa - Selecciona una Categoría</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">━━━━━ Todas</button>
+                    <button class="filter-btn" data-filter="tapas">🍝 Tapas</button>
+                    <button class="filter-btn" data-filter="hamburguesas">🍔 Hamburguesas</button>
+                    <button class="filter-btn" data-filter="arroces">🍚 Arroces</button>
+                    <button class="filter-btn" data-filter="pastas">🍝 Pastas</button>
+                    <button class="filter-btn" data-filter="woks">🍜 Woks</button>
+                    <button class="filter-btn" data-filter="carnes">🥩 Carnes</button>
+                    <button class="filter-btn" data-filter="postres">🍰 Postres</button>
+                </div>
+            </div>
+
+            <!-- TAPAS -->
+            <div class="menu-category" data-category="tapas">
+                <h3 class="category-title">🍝 Tapas</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-name">Patatas Fritas</div>
+                        <div class="item-price">3,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Las Bravas</div>
+                        <div class="item-price">5,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Finger de Pollo</div>
+                        <div class="item-price">8,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Huevos Estrellados</div>
+                        <div class="item-price">7,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Nachos Carne</div>
+                        <div class="item-price">10,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pan con Tomate</div>
+                        <div class="item-price">3,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Calamares</div>
+                        <div class="item-description">A la andaluza o a la plancha</div>
+                        <div class="item-price">10,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pimientos de Padrón</div>
+                        <div class="item-price">6,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Croqueta de Rabo de Toro</div>
+                        <div class="item-price">2,00 € ud.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Croqueta de Setas</div>
+                        <div class="item-price">1,80 € ud.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Alitas de Búfalo</div>
+                        <div class="item-price">8,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Berenjena Fría</div>
+                        <div class="item-description">Con miel y queso de cabra</div>
+                        <div class="item-price">6,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pincho de Tortilla de Patatas</div>
+                        <div class="item-price">4,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Ensaladilla Rusa</div>
+                        <div class="item-price">5,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Hummus</div>
+                        <div class="item-price">5,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Langostino Twister</div>
+                        <div class="item-price">8,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Gambas al Ajillo</div>
+                        <div class="item-price">10,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bimi Salteado</div>
+                        <div class="item-description">Con queso y frutos secos</div>
+                        <div class="item-price">6,50 €</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HAMBURGUESAS -->
+            <div class="menu-category" data-category="hamburguesas">
+                <h3 class="category-title">🍔 Hamburguesas</h3>
+                <div class="menu-grid">
+                    <div class="menu-item highlight">
+                        <div class="item-image"><img src="assets/img/hamburguesa atroz.webp" alt="ATROZ Burger"></div>
+                        <div class="item-name">ATROZ Burger</div>
+                        <div class="item-description">Carne 100% ternera, bacon, pepinillo, tomate, lechuga, cheddar, mayonesa y salsa barbacoa</div>
+                        <div class="item-price">12,50 €</div>
+                    </div>
+                    <div class="menu-item highlight">
+                        <div class="item-name">Smash Burger</div>
+                        <div class="item-description">Dos capas de carne 100% ternera, bacon, cheddar, cebolla crujiente, tomate, lechuga, mayonesa y salsa barbacoa</div>
+                        <div class="item-price">12,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chicken Burger</div>
+                        <div class="item-description">Hamburguesa de pollo con guacamole, tomate, lechuga, pepinillo, cheddar, mayonesa y ketchup</div>
+                        <div class="item-price">11,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Vegan Burger</div>
+                        <div class="item-description">Garbanzos, lentejas, calabaza, zanahoria, guacamole y mayonesa vegan</div>
+                        <div class="item-price">10,50 €</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARROCES -->
+            <div class="menu-category" data-category="arroces">
+                <h3 class="category-title">🍚 Arroces</h3>
+                <div class="menu-grid">
+                    <div class="menu-item highlight">
+                        <div class="item-name">Risotto de Setas</div>
+                        <div class="item-price">9,50 €</div>
+                    </div>
+                    <div class="menu-item highlight">
+                        <div class="item-name">Risotto de Jamón Ibérico</div>
+                        <div class="item-price">11,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Paella Mixta</div>
+                        <div class="item-price">14,50 € por persona</div>
+                    </div>
+                    <div class="menu-item highlight">
+                        <div class="item-image"><img src="assets/img/paella.webp" alt="Paella de Marisco"></div>
+                        <div class="item-name">Paella de Marisco</div>
+                        <div class="item-price">13,50 € por persona</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PASTAS -->
+            <div class="menu-category" data-category="pastas">
+                <h3 class="category-title">🍝 Pastas</h3>
+                <div class="menu-grid">
+                    <div class="menu-item highlight">
+                        <div class="item-name">Boloñesa ATROZ</div>
+                        <div class="item-price">11,50 €</div>
+                    </div>
+                    <div class="menu-item highlight">
+                        <div class="item-name">Carbonara</div>
+                        <div class="item-price">10,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pesto</div>
+                        <div class="item-price">9,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Lasaña de Carne</div>
+                        <div class="item-price">9,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Berenjena a la Parmigiana</div>
+                        <div class="item-price">8,50 €</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WOKS -->
+            <div class="menu-category" data-category="woks">
+                <h3 class="category-title">🍜 Woks</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-name">Wok de Pollo</div>
+                        <div class="item-price">10,00 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Wok de Ternera</div>
+                        <div class="item-price">11,50 €</div>
+                    </div>
+                    <div class="menu-item highlight">
+                        <div class="item-name">Wok de Gamba y Langostinos</div>
+                        <div class="item-price">12,50 €</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Wok Vegan</div>
+                        <div class="item-price">9,00 €</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARNES -->
+            <div class="menu-category" data-category="carnes">
+                <h3 class="category-title">🥩 Carnes</h3>
+                <div class="menu-grid">
+                    <div class="menu-item highlight">
+                        <div class="item-name">Costilla de Cerdo</div>
+                        <div class="item-description">Cocinada bajo temperatura, lacadas en salsa teriyaki con aceite de trufa y patatas fritas</div>
+                        <div class="item-price">15,50 €</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSTRES -->
+            <div class="menu-category" data-category="postres">
+                <h3 class="category-title">🍰 Postres</h3>
+                <div class="menu-grid">
+                    <div class="menu-item highlight">
+                        <div class="item-name">Tarta de Queso</div>
+                        <div class="item-price">5,50 €</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENÚ DE LA SEMANA -->
+    <section class="menu-section weekly-menu" id="weekly">
+        <div class="container">
+            <div class="weekly-header">
+                <h2 style="text-align: center; margin-bottom: 1.5rem; color: #6b0f0f;">Menú de la Semana</h2>
+                <p style="text-align: center; color: #555; margin-bottom: 2.5rem; font-size: 1rem;">Propuestas especiales de esta semana</p>
+            </div>
+
+            <div class="weekly-image-container">
+                <div class="weekly-image-placeholder">
+                    <img src="assets/img/menu-semana.jpg" alt="Menú de la Semana" class="weekly-image">
+                </div>
+                <p style="text-align: center; color: #999; margin-top: 1rem; font-size: 0.95rem; font-style: italic;">Actualizado semanalmente</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Te apetece venir?</h2>
+            <p>Reserva tu mesa ahora</p>
+            <a href="reservas.html" class="btn btn-primary">Hacer Reserva</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ATROZ</h4>
+                    <p>Gastronomía honesta y moderna en Castelldefels</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menú</h4>
+                    <ul>
+                        <li><a href="menu.html">Nuestra Carta</a></li>
+                        <li><a href="experiencia.html">Nuestra Experiencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Reservas</h4>
+                    <ul>
+                        <li><a href="reservas.html">Hacer Reserva</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/atrozgastrobar/" target="_blank" title="Instagram">📱</a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook">👍</a>
+                        <a href="https://whatsapp.com" target="_blank" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATROZ Restaurante. Castelldefels, Barcelona. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

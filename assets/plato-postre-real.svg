@@ -1,0 +1,66 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="chocolate" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513"/>
+      <stop offset="50%" style="stop-color:#5c3317"/>
+      <stop offset="100%" style="stop-color:#3d230f"/>
+    </linearGradient>
+    <linearGradient id="crema" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9f0"/>
+      <stop offset="50%" style="stop-color:#f5ede4"/>
+      <stop offset="100%" style="stop-color:#ede4d3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="200" cy="350" rx="120" ry="30" fill="url(#shadow)"/>
+  
+  <!-- Plato blanco -->
+  <circle cx="200" cy="180" r="140" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Bizcocho de chocolate (capa inferior) -->
+  <ellipse cx="200" cy="220" rx="110" ry="70" fill="url(#chocolate)"/>
+  
+  <!-- Segunda capa de bizcocho -->
+  <ellipse cx="200" cy="190" rx="110" ry="65" fill="#6b3410"/>
+  
+  <!-- Crema batida decorativa (nube) -->
+  <path d="M 140 140 Q 145 120 160 130 Q 175 115 190 130 Q 200 110 210 125 Q 230 115 240 135 Q 255 125 260 140" fill="url(#crema)"/>
+  <path d="M 145 145 Q 155 130 170 140 Q 185 125 200 135 Q 215 125 230 140 Q 240 130 250 145" fill="#fffbf7" opacity="0.6"/>
+  
+  <!-- Fresa fresca arriba -->
+  <ellipse cx="120" cy="105" rx="15" ry="18" fill="#dc143c"/>
+  <ellipse cx="118" cy="103" rx="14" ry="17" fill="#ff1744"/>
+  <path d="M 115 95 L 120 85 L 125 95" fill="#2d5016"/>
+  <circle cx="122" cy="110" r="1.5" fill="#ffd700"/>
+  <circle cx="128" cy="108" r="1.5" fill="#ffd700"/>
+  
+  <!-- Frambuesas -->
+  <circle cx="160" cy="95" r="7" fill="#c71585"/>
+  <circle cx="155" cy="92" r="5" fill="#d81b60"/>
+  <circle cx="163" cy="90" r="5" fill="#d81b60"/>
+  <circle cx="250" cy="110" r="7" fill="#c71585"/>
+  <circle cx="260" cy="115" r="7" fill="#c71585"/>
+  
+  <!-- Caramelo o ganache brillante -->
+  <ellipse cx="200" cy="185" rx="105" ry="50" fill="#5a2d1a" opacity="0.3"/>
+  <path d="M 150 160 Q 180 150 200 155 Q 220 150 250 160" fill="#3d230f" opacity="0.4"/>
+  
+  <!-- Brillo del glaseado -->
+  <ellipse cx="190" cy="170" rx="20" ry="12" fill="#ffffff" opacity="0.3"/>
+  <ellipse cx="220" cy="175" rx="18" ry="10" fill="#ffffff" opacity="0.25"/>
+  
+  <!-- Menta decorativa -->
+  <ellipse cx="140" cy="140" rx="8" ry="6" fill="#2d5016"/>
+  <ellipse cx="145" cy="135" rx="6" ry="5" fill="#3a7a2f"/>
+  
+  <!-- Azúcar o cobertura -->
+  <circle cx="170" cy="130" r="1.5" fill="#ffd700"/>
+  <circle cx="190" cy="125" r="1.5" fill="#ffd700"/>
+  <circle cx="210" cy="130" r="1.5" fill="#ffd700"/>
+  <circle cx="230" cy="128" r="1.5" fill="#ffd700"/>
+</svg>

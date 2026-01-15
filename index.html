@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATROZ Restaurante | Gastronomía Honesta en Castelldefels</title>
+    <meta name="description" content="ATROZ: Gastronomía honesta, moderna y mediterránea en Castelldefels, Barcelona. Desayunos, comidas y cenas en un ambiente acogedor y auténtico.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html?page=inicio">
+                    <img src="assets/img/logo-atroz.png" alt="Atroz Restaurante" class="logo-image">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html?page=inicio" class="nav-link active">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#carta" class="nav-link">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#weekly" class="nav-link">Menú de la semana</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiencia.html" class="nav-link">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reservas.html" class="nav-link">Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ubicacion.html" class="nav-link">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" style="background-image: url('assets/img/terraza atroz.webp');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenido a <span class="hero-title-accent">ATROZ</span></h1>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: QUIÉNES SOMOS -->
+    <section class="about">
+        <div class="container">
+            <div class="about-header">
+                <h2 class="about-title">Quiénes Somos</h2>
+                <div class="about-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-intro">
+                    <p class="about-intro-text">
+                        <strong>ATROZ</strong> es más que un restaurante: es un concepto de gastronomía honesta, moderna y sin pretensiones.
+                    </p>
+                    <p class="about-description">
+                        Ubicados en el corazón de Castelldefels, Barcelona, apostamos por ingredientes frescos, técnica probada y una conexión genuina con nuestros comensales. Aquí la cocina mediterránea se mezcla con la urbanidad barcelonesa, creando un espacio donde la autenticidad es protagonista.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: DESTACADOS -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlights-header">
+                <h2 class="highlights-title">Nuestras Especialidades</h2>
+                <div class="highlights-divider"></div>
+                <p class="highlights-subtitle">Los sabores que definen a ATROZ</p>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-item">
+                    <div class="highlight-image-wrapper">
+                        <img src="assets/img/hamburguesa atroz.webp" alt="ATROZ Burger">
+                        <div class="highlight-overlay"></div>
+                    </div>
+                    <div class="highlight-item-content">
+                        <h3>ATROZ Burger</h3>
+                        <p>Nuestra especialidad de la casa: carne de calidad, ingredientes premium y sabor inconfundible</p>
+                        <a href="menu.html" class="btn btn-primary">Ver Menú</a>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-image-wrapper">
+                        <img src="assets/img/tapeo.webp" alt="Tapeo variado">
+                        <div class="highlight-overlay"></div>
+                    </div>
+                    <div class="highlight-item-content">
+                        <h3>Tapeo Variado</h3>
+                        <p>Selección cuidada de nuestras mejores tapas para disfrutar en cualquier momento</p>
+                        <a href="menu.html" class="btn btn-primary">Ver Menú</a>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-image-wrapper">
+                        <img src="assets/img/paella.webp" alt="Paella">
+                        <div class="highlight-overlay"></div>
+                    </div>
+                    <div class="highlight-item-content">
+                        <h3>Paella y Arroces</h3>
+                        <p>Recetas mediterráneas de tradición, preparadas con técnica y ingredientes frescos</p>
+                        <a href="menu.html" class="btn btn-primary">Ver Menú</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: NUESTROS VALORES -->
+    <section class="values">
+        <div class="container">
+            <div class="values-header">
+                <h2 class="values-title">Lo Que Nos Define</h2>
+                <div class="values-divider"></div>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🍽️</div>
+                    <h3>Cocina Honesta</h3>
+                    <p>Ingredientes frescos y técnicas probadas, sin complicaciones innecesarias</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🏠</div>
+                    <h3>Ambiente Acogedor</h3>
+                    <p>Un espacio pensado para que te sientas como en casa desde el primer momento</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">👥</div>
+                    <h3>Para Todos</h3>
+                    <p>Solo, con amigos, en pareja o en familia: hay un lugar para cada momento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: RESEÑAS -->
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <h2 class="reviews-title">Lo que Dicen Nuestros Clientes</h2>
+                <div class="reviews-divider"></div>
+                <p class="reviews-badge">⭐ Más de 400 reseñas en Google</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Excelente comida, ambiente muy acogedor y atención impecable. Volveremos sin dudarlo."</p>
+                    <p class="review-author">— María García</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"La ATROZ Burger es increíble, ingredientes frescos y de calidad. Totalmente recomendado."</p>
+                    <p class="review-author">— Carlos López</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Lugar perfecto para comer en familia. Personal muy atento y ambiente fantástico."</p>
+                    <p class="review-author">— Ana Rodríguez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Listo para visitarnos?</h2>
+            <p>Descubre más sobre nuestro menú, galería y ambiente</p>
+            <div class="cta-buttons">
+                <a href="menu.html" class="btn btn-primary">Explorar Menú</a>
+                <a href="reservas.html" class="btn btn-secondary">Hacer Reserva</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ATROZ</h4>
+                    <p>Gastronomía honesta y moderna en Castelldefels</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menú</h4>
+                    <ul>
+                        <li><a href="menu.html">Nuestra Carta</a></li>
+                        <li><a href="experiencia.html">Nuestra Experiencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Reservas</h4>
+                    <ul>
+                        <li><a href="reservas.html">Hacer Reserva</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/atrozgastrobar/" target="_blank" title="Instagram">📱</a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook">👍</a>
+                        <a href="https://whatsapp.com" target="_blank" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATROZ Restaurante. Castelldefels, Barcelona. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

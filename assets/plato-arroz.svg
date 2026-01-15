@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="platoBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff5e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe8cc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="600" fill="url(#platoBg2)"/>
+  
+  <!-- Plato base -->
+  <circle cx="300" cy="300" r="200" fill="#f5deb3" stroke="#333" stroke-width="3"/>
+  <ellipse cx="300" cy="300" rx="195" ry="30" fill="#e8dcc8" stroke="none"/>
+  
+  <!-- ARROZ NEGRO (Paella) -->
+  <!-- Arroz negro base -->
+  <ellipse cx="300" cy="300" rx="170" ry="120" fill="#2c3e50" stroke="none"/>
+  
+  <!-- Detalles de arroz -->
+  <circle cx="260" cy="270" r="2" fill="#34495e"/>
+  <circle cx="280" cy="275" r="2" fill="#34495e"/>
+  <circle cx="300" cy="270" r="2" fill="#34495e"/>
+  <circle cx="320" cy="275" r="2" fill="#34495e"/>
+  <circle cx="340" cy="270" r="2" fill="#34495e"/>
+  
+  <!-- Gambas -->
+  <g id="gamba1">
+    <ellipse cx="250" cy="280" rx="20" ry="12" fill="#ff6b9d"/>
+    <circle cx="270" cy="278" r="6" fill="#333"/>
+    <path d="M 230 280 Q 220 275 215 270" stroke="#ff6b9d" stroke-width="2" fill="none"/>
+  </g>
+  
+  <g id="gamba2">
+    <ellipse cx="350" cy="320" rx="20" ry="12" fill="#ff6b9d"/>
+    <circle cx="370" cy="318" r="6" fill="#333"/>
+    <path d="M 330 320 Q 320 315 315 310" stroke="#ff6b9d" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Mejillones -->
+  <path d="M 280 300 Q 290 310 280 320 Q 270 310 280 300" fill="#2c3e50" stroke="#333" stroke-width="1.5"/>
+  <path d="M 320 310 Q 330 320 320 330 Q 310 320 320 310" fill="#2c3e50" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Calamar -->
+  <ellipse cx="300" cy="340" rx="25" ry="35" fill="#f59e8d"/>
+  <circle cx="295" cy="325" r="3" fill="#333"/>
+  <circle cx="305" cy="325" r="3" fill="#333"/>
+  <path d="M 290 365 L 288 380 M 295 365 L 295 382 M 300 365 L 300 380 M 305 365 L 305 382 M 310 365 L 312 380" 
+        stroke="#f59e8d" stroke-width="2"/>
+  
+  <!-- Pimentón (coloración) -->
+  <circle cx="270" cy="300" r="25" fill="#ffab91" opacity="0.4"/>
+  <circle cx="330" cy="290" r="30" fill="#ffab91" opacity="0.3"/>
+  
+  <!-- Limón decorativo -->
+  <circle cx="240" cy="330" r="18" fill="#ffeb3b" stroke="#f9a825" stroke-width="2"/>
+  <path d="M 240 310 L 238 300 L 242 300" fill="#22c55e"/>
+  
+  <!-- Perejil fresco -->
+  <g id="parsley">
+    <path d="M 360 280 L 365 275 L 370 280 L 365 285 Z" fill="#22c55e"/>
+    <path d="M 355 285 L 360 280 L 365 285 L 360 290 Z" fill="#1eae4d"/>
+  </g>
+  
+  <!-- Brillo/aceite -->
+  <circle cx="290" cy="290" r="8" fill="#fff5e6" opacity="0.3"/>
+  <circle cx="320" cy="310" r="6" fill="#fff5e6" opacity="0.2"/>
+  
+  <!-- Nombre -->
+  <text x="300" y="530" font-family="Playfair Display, serif" font-size="32" font-weight="bold" fill="#991b1b" text-anchor="middle">
+    ARROZ NEGRO
+  </text>
+  <text x="300" y="560" font-family="Sora, sans-serif" font-size="16" fill="#dc2626" text-anchor="middle">
+    Gambas, mejillones y calamar • 14,50 €
+  </text>
+</svg>

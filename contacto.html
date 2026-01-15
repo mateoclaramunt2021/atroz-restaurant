@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | ATROZ Restaurante</title>
+    <meta name="description" content="Contacta con ATROZ Restaurante. Formulario de contacto, teléfono, WhatsApp y email. Estamos aquí para ayudarte.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html?page=inicio">
+                    <img src="assets/img/logo-atroz.png" alt="Atroz Restaurante" class="logo-image">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html?page=inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#carta" class="nav-link">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#weekly" class="nav-link">Menú de la semana</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiencia.html" class="nav-link">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reservas.html" class="nav-link">Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ubicacion.html" class="nav-link">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link active">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacta con Nosotros</h1>
+            <p>Estamos aquí para escucharte y ayudarte</p>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-content">
+                <!-- FORMULARIO -->
+                <div class="contact-form-area">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">Nombre *</label>
+                            <input type="text" id="contactName" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Correo Electrónico *</label>
+                            <input type="email" id="contactEmail" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Teléfono</label>
+                            <input type="tel" id="contactPhone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Mensaje *</label>
+                            <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- INFORMACIÓN DE CONTACTO -->
+                <div class="contact-info-area">
+                    <h2>Información de Contacto</h2>
+                    
+                    <div class="contact-info-block">
+                        <h3>📞 Teléfono</h3>
+                        <p><a href="tel:+34933907290">+34 933 90 72 90</a></p>
+                        <small>Lunes - Domingo: 8:00 - 23:00</small>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>💬 WhatsApp</h3>
+                        <p><a href="https://wa.me/34933907290" target="_blank">+34 933 90 72 90</a></p>
+                        <small>Respuesta rápida garantizada</small>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@atrozrestaurante.com">info@atrozrestaurante.com</a></p>
+                        <small>Respuesta dentro de 24 horas</small>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>📍 Dirección</h3>
+                        <p>
+                            Avenida Principal, 42<br>
+                            08860 Castelldefels<br>
+                            Barcelona, España
+                        </p>
+                        <a href="ubicacion.html" class="btn btn-outline">Ver Ubicación</a>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Síguenos en Redes</h3>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/atrozgastrobar/" target="_blank" title="Instagram" class="social-icon">📱</a>
+                            <a href="https://facebook.com" target="_blank" title="Facebook" class="social-icon">👍</a>
+                            <a href="https://twitter.com" target="_blank" title="Twitter" class="social-icon">🐦</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREGUNTAS FRECUENTES -->
+            <section class="faq-section">
+                <h2>Preguntas Frecuentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>¿Cuál es el mejor momento para reservar?</h3>
+                        <p>Con anticipación, especialmente para fines de semana y eventos especiales. Sin embargo, también aceptamos walk-ins según disponibilidad.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Ofrecen menús especiales para dietas?</h3>
+                        <p>Sí, adaptamos nuestros menús según tus necesidades: vegetariano, vegano, celíaco, alergias, etc. Por favor comunícanos con anticipación.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Disponen de salones para eventos?</h3>
+                        <p>Tenemos espacios disponibles para eventos privados, cumpleaños y celebraciones. Contacta con nosotros para más detalles.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Aceptan tarjeta de crédito?</h3>
+                        <p>Sí, aceptamos todas las formas de pago: efectivo, tarjeta de crédito, débito y billeteras digitales.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Hay estacionamiento disponible?</h3>
+                        <p>Sí, disponemos de amplio aparcamiento gratuito en el local y alrededores.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Ofrecen catering o servicio a domicilio?</h3>
+                        <p>Sí, ofrecemos servicios de catering para eventos y celebraciones. Contacta para presupuesto personalizado.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HORARIOS -->
+            <section class="hours-contact">
+                <h2>Horarios de Atención</h2>
+                <div class="hours-table">
+                    <div class="hour-row">
+                        <span class="day">Lunes - Viernes</span>
+                        <span class="time">8:00 - 23:00</span>
+                    </div>
+                    <div class="hour-row">
+                        <span class="day">Sábado</span>
+                        <span class="time">9:00 - 00:00</span>
+                    </div>
+                    <div class="hour-row">
+                        <span class="day">Domingo</span>
+                        <span class="time">9:00 - 23:00</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Listo para venir?</h2>
+            <p>Reserva tu mesa ahora o visítanos sin aviso</p>
+            <a href="reservas.html" class="btn btn-primary">Hacer Reserva</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ATROZ</h4>
+                    <p>Gastronomía honesta y moderna en Castelldefels</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menú</h4>
+                    <ul>
+                        <li><a href="menu.html">Nuestro Menú</a></li>
+                        <li><a href="experiencia.html">Nuestra Experiencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Reservas</h4>
+                    <ul>
+                        <li><a href="reservas.html">Hacer Reserva</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/atrozgastrobar/" target="_blank" title="Instagram">📱</a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook">👍</a>
+                        <a href="https://whatsapp.com" target="_blank" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATROZ Restaurante. Castelldefels, Barcelona. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

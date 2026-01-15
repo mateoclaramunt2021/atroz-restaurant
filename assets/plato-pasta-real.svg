@@ -1,0 +1,66 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="pasta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d4a8"/>
+      <stop offset="50%" style="stop-color:#e6b373"/>
+      <stop offset="100%" style="stop-color:#d4a05a"/>
+    </linearGradient>
+    <linearGradient id="sauce" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff0cc"/>
+      <stop offset="50%" style="stop-color:#ffe699"/>
+      <stop offset="100%" style="stop-color:#ffdd66"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="200" cy="350" rx="130" ry="35" fill="url(#shadow)"/>
+  
+  <!-- Plato blanco -->
+  <circle cx="200" cy="180" r="150" fill="#fafafa" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Base de pasta -->
+  <ellipse cx="200" cy="200" rx="130" ry="100" fill="url(#pasta)"/>
+  
+  <!-- Salsa cremosa -->
+  <ellipse cx="200" cy="190" rx="125" ry="95" fill="url(#sauce)"/>
+  
+  <!-- Espaguetis enredados -->
+  <path d="M 140 150 Q 160 140 180 150 Q 200 140 220 150" stroke="#daa520" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 150 170 Q 175 165 200 175 Q 225 165 250 175" stroke="#daa520" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 160 200 Q 180 195 200 205 Q 220 195 240 205" stroke="#d4a05a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 155 220 Q 185 215 215 225" stroke="#d4a05a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Yema de huevo (cremoso) -->
+  <ellipse cx="200" cy="170" rx="35" ry="40" fill="#fff9e6"/>
+  <ellipse cx="200" cy="168" rx="33" ry="38" fill="#fffaed"/>
+  
+  <!-- Punto de brillo en la yema -->
+  <ellipse cx="210" cy="155" rx="8" ry="10" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Panceta crujiente -->
+  <rect x="130" y="135" width="50" height="8" fill="#8b4513" rx="2"/>
+  <rect x="220" y="140" width="45" height="8" fill="#8b4513" rx="2"/>
+  <rect x="140" y="250" width="55" height="7" fill="#8b4513" rx="2"/>
+  
+  <!-- Queso parmesano rallado -->
+  <circle cx="170" cy="110" r="2" fill="#e6d4b8"/>
+  <circle cx="185" cy="105" r="2" fill="#e6d4b8"/>
+  <circle cx="200" cy="100" r="2" fill="#e6d4b8"/>
+  <circle cx="220" cy="108" r="2" fill="#e6d4b8"/>
+  <circle cx="235" cy="115" r="2" fill="#e6d4b8"/>
+  <circle cx="175" cy="240" r="2" fill="#e6d4b8"/>
+  <circle cx="225" cy="245" r="2" fill="#e6d4b8"/>
+  
+  <!-- Pimienta negra -->
+  <circle cx="195" cy="180" r="1.5" fill="#2d2d2d"/>
+  <circle cx="210" cy="185" r="1.5" fill="#2d2d2d"/>
+  <circle cx="185" cy="200" r="1.5" fill="#2d2d2d"/>
+  
+  <!-- Perejil fresco -->
+  <path d="M 250 180 Q 255 175 260 180 Q 255 185 250 180" fill="#2d5016"/>
+  <path d="M 260 200 Q 265 195 270 200 Q 265 205 260 200" fill="#2d5016"/>
+</svg>

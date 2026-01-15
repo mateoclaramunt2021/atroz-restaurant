@@ -1,0 +1,63 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="arroz" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="50%" style="stop-color:#2d2d2d"/>
+      <stop offset="100%" style="stop-color:#0f0f0f"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="200" cy="350" rx="130" ry="40" fill="url(#shadow)"/>
+  
+  <!-- Plato fondo blanco -->
+  <circle cx="200" cy="180" r="150" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Arroz negro base -->
+  <ellipse cx="200" cy="190" rx="140" ry="110" fill="url(#arroz)"/>
+  
+  <!-- Textura del arroz -->
+  <circle cx="140" cy="150" r="2" fill="#3a3a3a"/>
+  <circle cx="180" cy="130" r="2" fill="#3a3a3a"/>
+  <circle cx="220" cy="140" r="2" fill="#3a3a3a"/>
+  <circle cx="260" cy="160" r="2" fill="#3a3a3a"/>
+  <circle cx="150" cy="200" r="2" fill="#3a3a3a"/>
+  <circle cx="250" cy="210" r="2" fill="#3a3a3a"/>
+  
+  <!-- Gamba superior derecha -->
+  <path d="M 260 120 Q 280 100 290 80" stroke="#dc143c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="290" cy="80" r="7" fill="#c41e3a"/>
+  <circle cx="287" cy="85" r="3" fill="#8b0000"/>
+  
+  <!-- Gamba inferior izquierda -->
+  <path d="M 140 220 Q 120 240 110 260" stroke="#dc143c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="110" cy="260" r="7" fill="#c41e3a"/>
+  
+  <!-- Mejillón superior izquierdo -->
+  <ellipse cx="130" cy="100" rx="20" ry="30" fill="#2c3e50" stroke="#1a252f" stroke-width="1"/>
+  <path d="M 130 95 Q 125 100 130 105 Q 135 100 130 95" fill="#34495e"/>
+  
+  <!-- Mejillón inferior derecho -->
+  <ellipse cx="270" cy="260" rx="22" ry="28" fill="#2c3e50" stroke="#1a252f" stroke-width="1"/>
+  <path d="M 270 255 Q 265 260 270 265 Q 275 260 270 255" fill="#34495e"/>
+  
+  <!-- Calamares/anillas -->
+  <circle cx="200" cy="140" r="18" fill="none" stroke="#d4a574" stroke-width="3"/>
+  <circle cx="200" cy="140" r="12" fill="none" stroke="#d4a574" stroke-width="2"/>
+  
+  <!-- Más calamares -->
+  <circle cx="180" cy="190" r="15" fill="none" stroke="#d4a574" stroke-width="2.5"/>
+  <circle cx="220" cy="200" r="16" fill="none" stroke="#d4a574" stroke-width="2.5"/>
+  
+  <!-- Limón decorativo -->
+  <circle cx="240" cy="100" r="12" fill="#FFD700"/>
+  <circle cx="242" cy="98" r="2" fill="#FFC700"/>
+  <circle cx="238" cy="100" r="2" fill="#FFC700"/>
+  
+  <!-- Perejil decorativo -->
+  <path d="M 155 110 Q 150 115 152 122 Q 155 118 160 120" fill="#2d5016" opacity="0.8"/>
+</svg>

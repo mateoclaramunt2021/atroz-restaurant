@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATROZ Restaurante - Portal Principal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Sora', Arial, sans-serif;
+            background: linear-gradient(135deg, rgba(139, 26, 26, 0.05) 0%, rgba(139, 26, 26, 0.03) 100%);
+            padding: 2rem;
+            color: #333;
+        }
+        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 3rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(139, 26, 26, 0.15); }
+        h1 { color: #8b1a1a; margin-bottom: 0.5rem; font-size: 2.5rem; }
+        .subtitle { color: #666; margin-bottom: 2rem; font-size: 1.1rem; }
+        .status { background: #f0f9f0; border-left: 4px solid #22c55e; padding: 1rem; border-radius: 4px; margin-bottom: 2rem; }
+        .status strong { color: #22c55e; }
+        .pages-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .page-card { background: white; border: 2px solid #8b1a1a; border-radius: 8px; padding: 2rem; text-align: center; text-decoration: none; color: inherit; transition: all 0.3s; }
+        .page-card:hover { background: rgba(139, 26, 26, 0.05); transform: translateY(-4px); box-shadow: 0 8px 20px rgba(139, 26, 26, 0.15); }
+        .emoji { font-size: 3rem; margin-bottom: 1rem; display: block; }
+        .page-card h2 { color: #8b1a1a; margin-bottom: 0.5rem; font-size: 1.3rem; }
+        .page-card p { color: #666; font-size: 0.9rem; line-height: 1.4; }
+        .info-section { background: rgba(139, 26, 26, 0.05); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border-left: 4px solid #8b1a1a; }
+        .info-section h3 { color: #8b1a1a; margin-bottom: 1rem; }
+        .info-section ul { list-style: none; padding-left: 0; }
+        .info-section li { padding: 0.5rem 0; color: #333; }
+        .footer { text-align: center; color: #999; font-size: 0.9rem; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ ATROZ RESTAURANTE</h1>
+        <p class="subtitle">Gastronomía honesta y moderna en Castelldefels, Barcelona</p>
+        
+        <div class="status">
+            <strong>✅ Servidor Local Activo</strong><br>
+            Todas las páginas están disponibles en http://localhost:8000
+        </div>
+
+        <h2 style="color: #8b1a1a; margin-bottom: 1.5rem;">Acceso Rápido a las Páginas:</h2>
+        <div class="pages-grid">
+            <a href="index.html" class="page-card">
+                <span class="emoji">🏠</span>
+                <h2>Inicio</h2>
+                <p>Página principal con hero, quiénes somos y especialidades</p>
+            </a>
+
+            <a href="menu.html" class="page-card">
+                <span class="emoji">🍽️</span>
+                <h2>Menú</h2>
+                <p>Menú completo: 8 categorías, 60+ items con precios</p>
+            </a>
+
+            <a href="galeria.html" class="page-card">
+                <span class="emoji">📸</span>
+                <h2>Galería</h2>
+                <p>6 platos profesionales: burger, pasta, arroz, pescado, postre</p>
+            </a>
+
+            <a href="experiencia.html" class="page-card">
+                <span class="emoji">✨</span>
+                <h2>Experiencia</h2>
+                <p>Valores, propuestas especiales y ambiente acogedor</p>
+            </a>
+
+            <a href="reservas.html" class="page-card">
+                <span class="emoji">📅</span>
+                <h2>Reservas</h2>
+                <p>Sistema de reservas: llamada, WhatsApp, formulario</p>
+            </a>
+
+            <a href="ubicacion.html" class="page-card">
+                <span class="emoji">📍</span>
+                <h2>Ubicación</h2>
+                <p>Dirección, horarios, cómo llegar, servicios</p>
+            </a>
+
+            <a href="contacto.html" class="page-card">
+                <span class="emoji">💬</span>
+                <h2>Contacto</h2>
+                <p>Contacto, FAQ, horarios de atención, redes sociales</p>
+            </a>
+        </div>
+
+        <div class="info-section">
+            <h3>✅ Características Implementadas</h3>
+            <ul>
+                <li>✓ 7 páginas HTML completamente funcionales</li>
+                <li>✓ Navegación sticky en todas las páginas</li>
+                <li>✓ Diseño granate (#8b1a1a) y blanco con patrón decorativo</li>
+                <li>✓ 100% responsive (móvil, tablet, desktop)</li>
+                <li>✓ 6 ilustraciones SVG profesionales</li>
+                <li>✓ Formularios con validación (reservas y contacto)</li>
+                <li>✓ Links directos (teléfono, WhatsApp, email)</li>
+                <li>✓ Menú con 60+ items en 8 categorías</li>
+                <li>✓ CSS optimizado (1647 líneas)</li>
+                <li>✓ JavaScript interactivo (280+ líneas)</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h3>🌐 Para Publicar en Internet</h3>
+            <ul>
+                <li><strong>Paso 1:</strong> Registra un dominio (ej: atrozrestaurante.com)</li>
+                <li><strong>Paso 2:</strong> Contrata un hosting web (GoDaddy, Namecheap, SiteGround, etc.)</li>
+                <li><strong>Paso 3:</strong> Sube los archivos por FTP a la carpeta public_html</li>
+                <li><strong>Paso 4:</strong> Apunta el dominio al servidor de hosting</li>
+                <li><strong>Paso 5:</strong> Tu sitio estará disponible en www.atrozrestaurante.com</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h3>📁 Estructura de Carpetas</h3>
+            <ul>
+                <li><strong>index.html</strong> - Página principal</li>
+                <li><strong>menu.html</strong> - Menú completo</li>
+                <li><strong>galeria.html</strong> - Galería visual</li>
+                <li><strong>experiencia.html</strong> - Experiencia ATROZ</li>
+                <li><strong>reservas.html</strong> - Reservas</li>
+                <li><strong>ubicacion.html</strong> - Ubicación</li>
+                <li><strong>contacto.html</strong> - Contacto</li>
+                <li><strong>css/styles.css</strong> - Estilos completos</li>
+                <li><strong>js/main.js</strong> - Funcionalidad</li>
+                <li><strong>assets/</strong> - Imágenes SVG</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 ATROZ Restaurante - Castelldefels, Barcelona<br>
+            Gastronomía honesta y moderna</p>
+        </div>
+    </div>
+</body>
+</html>

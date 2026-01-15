@@ -1,0 +1,61 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="shadow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="pescado" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#cd5c5c"/>
+      <stop offset="50%" style="stop-color:#a0522d"/>
+      <stop offset="100%" style="stop-color:#8b4513"/>
+    </linearGradient>
+    <linearGradient id="salsa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8dc"/>
+      <stop offset="50%" style="stop-color:#ffe4b5"/>
+      <stop offset="100%" style="stop-color:#ffd699"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sombra -->
+  <ellipse cx="200" cy="350" rx="130" ry="35" fill="url(#shadow)"/>
+  
+  <!-- Plato blanco -->
+  <circle cx="200" cy="180" r="150" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Base salsa ligera -->
+  <ellipse cx="200" cy="220" rx="125" ry="80" fill="url(#salsa)" opacity="0.8"/>
+  
+  <!-- Filete de pez espada/salmón -->
+  <ellipse cx="200" cy="160" rx="95" ry="60" fill="url(#pescado)"/>
+  <ellipse cx="200" cy="158" rx="93" ry="58" fill="#c05555"/>
+  
+  <!-- Líneas del pescado a la parrilla -->
+  <line x1="120" y1="155" x2="280" y2="155" stroke="#5a2d1a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="120" y1="165" x2="280" y2="165" stroke="#5a2d1a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="120" y1="175" x2="280" y2="175" stroke="#5a2d1a" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Escamas/textura -->
+  <ellipse cx="150" cy="150" rx="8" ry="6" fill="#d4765f" opacity="0.5"/>
+  <ellipse cx="250" cy="152" rx="8" ry="6" fill="#d4765f" opacity="0.5"/>
+  <ellipse cx="170" cy="168" rx="7" ry="5" fill="#d4765f" opacity="0.5"/>
+  <ellipse cx="230" cy="170" rx="7" ry="5" fill="#d4765f" opacity="0.5"/>
+  
+  <!-- Ojo del pescado (si es visible) -->
+  <circle cx="120" cy="158" r="4" fill="#ffffff"/>
+  <circle cx="120" cy="158" r="2.5" fill="#2d2d2d"/>
+  
+  <!-- Espárragos a un lado -->
+  <line x1="100" y1="200" x2="90" y2="260" stroke="#2d5016" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="90" cy="260" r="3" fill="#4a7c24"/>
+  <line x1="280" y1="210" x2="300" y2="270" stroke="#2d5016" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="300" cy="270" r="3" fill="#4a7c24"/>
+  
+  <!-- Limón decorativo -->
+  <circle cx="140" cy="240" r="10" fill="#FFD700"/>
+  <circle cx="142" cy="238" r="2" fill="#FFC700"/>
+  <ellipse cx="135" cy="242" rx="6" ry="8" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Aceite de oliva brillo -->
+  <ellipse cx="160" cy="150" rx="15" ry="8" fill="#fff8dc" opacity="0.4"/>
+  <ellipse cx="240" cy="165" rx="12" ry="6" fill="#fff8dc" opacity="0.4"/>
+</svg>

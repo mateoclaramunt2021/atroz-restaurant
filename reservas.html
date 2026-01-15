@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas | ATROZ Restaurante</title>
+    <meta name="description" content="Reserva tu mesa en ATROZ Restaurante. Llamada, WhatsApp o formulario online. Abierto de lunes a domingo.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html?page=inicio">
+                    <img src="assets/img/logo-atroz.png" alt="Atroz Restaurante" class="logo-image">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html?page=inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#carta" class="nav-link">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html#weekly" class="nav-link">Menú de la semana</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiencia.html" class="nav-link">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reservas.html" class="nav-link active">Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ubicacion.html" class="nav-link">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Reserva tu Mesa</h1>
+            <p>Elige el método que prefieras para contactarnos</p>
+        </div>
+    </section>
+
+    <!-- RESERVAS SECTION -->
+    <section class="reserve-page">
+        <div class="container">
+            <div class="reserve-options">
+                <div class="reserve-method">
+                    <div class="method-icon">📞</div>
+                    <h3>Llamada Directa</h3>
+                    <p>Habla directamente con nuestro equipo. Estamos disponibles para asesorarte.</p>
+                    <a href="tel:+34933907290" class="btn btn-primary">+34 933 90 72 90</a>
+                </div>
+                
+                <div class="reserve-method">
+                    <div class="method-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>Envía un mensaje instantáneo. Te responderemos en el menor tiempo posible.</p>
+                    <a href="https://wa.me/34933907290" target="_blank" class="btn btn-primary">Enviar WhatsApp</a>
+                </div>
+                
+                <div class="reserve-method">
+                    <div class="method-icon">📧</div>
+                    <h3>Formulario Online</h3>
+                    <p>Completa el formulario y nos pondremos en contacto contigo pronto.</p>
+                    <a href="#reserve-form" class="btn btn-primary">Ir al Formulario</a>
+                </div>
+            </div>
+
+            <div class="hours-section">
+                <h2>Horarios de Atención</h2>
+                <div class="hours-grid">
+                    <div class="hour-item">
+                        <span class="day">Lunes - Viernes</span>
+                        <span class="time">8:00 - 23:00</span>
+                    </div>
+                    <div class="hour-item">
+                        <span class="day">Sábado</span>
+                        <span class="time">9:00 - 00:00</span>
+                    </div>
+                    <div class="hour-item">
+                        <span class="day">Domingo</span>
+                        <span class="time">9:00 - 23:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reserve-form-section" id="reserve-form">
+                <h2>Formulario de Reserva</h2>
+                <form class="contact-form" id="reserveForm">
+                    <div class="form-group">
+                        <label for="name">Nombre *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Fecha *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Hora *</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Número de Comensales *</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Selecciona</option>
+                            <option value="1">1 Comensal</option>
+                            <option value="2">2 Comensales</option>
+                            <option value="3">3 Comensales</option>
+                            <option value="4">4 Comensales</option>
+                            <option value="5">5 Comensales</option>
+                            <option value="6">6 Comensales</option>
+                            <option value="7">7 Comensales</option>
+                            <option value="8">8 Comensales</option>
+                            <option value="9">9+ Comensales</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="occasion">Ocasión (opcional)</label>
+                        <input type="text" id="occasion" name="occasion" placeholder="Ej: Cumpleaños, Aniversario...">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje (opcional)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Cuéntanos cualquier requisito especial..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Enviar Reserva</button>
+                </form>
+            </div>
+
+            <div class="info-box">
+                <h3>Información Importante</h3>
+                <ul>
+                    <li>✓ Las reservas se confirman dentro de 24 horas</li>
+                    <li>✓ Para grupos mayores de 8 personas, por favor llamanos directamente</li>
+                    <li>✓ Tenemos disponibilidad para eventos privados y celebraciones</li>
+                    <li>✓ Aceptamos dietas especiales: comunícanos tus necesidades</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>¿Necesitas ayuda?</h2>
+            <p>Contáctanos por cualquiera de nuestros canales</p>
+            <a href="contacto.html" class="btn btn-primary">Ir a Contacto</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ATROZ</h4>
+                    <p>Gastronomía honesta y moderna en Castelldefels</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menú</h4>
+                    <ul>
+                        <li><a href="menu.html">Nuestro Menú</a></li>
+                        <li><a href="experiencia.html">Nuestra Experiencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Reservas</h4>
+                    <ul>
+                        <li><a href="reservas.html">Hacer Reserva</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/atrozgastrobar/" target="_blank" title="Instagram">📱</a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook">👍</a>
+                        <a href="https://whatsapp.com" target="_blank" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATROZ Restaurante. Castelldefels, Barcelona. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
